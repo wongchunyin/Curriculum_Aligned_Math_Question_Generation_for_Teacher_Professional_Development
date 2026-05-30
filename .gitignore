@@ -1,0 +1,52 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+env/
+# Jupyter
+.ipynb_checkpoints/
+# Secrets and local config
+.env
+.env.*
+*.pem
+*.key
+.netrc
+# Logs and experiment outputs
+logs/
+**/logs/
+runs/
+wandb/
+optimizer_result/
+phi2_optuna/
+math-as-es/
+experiment/
+experiment_3/
+# Trained models and checkpoints
+phi2_final_model/
+phi2_feedback_v2_model/
+checkpoint-*/
+**/checkpoint-*/
+*.safetensors
+*.bin
+*.pt
+*.pth
+# Archives and generated bundles
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+# Frontend dependencies/build outputs
+node_modules/
+website/frontend/node_modules/
+dist/
+build/
+# OS/editor files
+.DS_Store
+.idea/
+.vscode/
+README.md
+
