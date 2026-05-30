@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Math Skills Assessment</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Math Question Generator</h1>
+
+        <div class="section-title">Student Transcript Input</div>
+        <form id="assessmentForm">
+            <label for="additionScore">Addition Score (0-100):</label>
+            <input type="number" id="additionScore" min="0" max="100" required>
+
+            <label for="subtractionScore">Subtraction Score (0-100):</label>
+            <input type="number" id="subtractionScore" min="0" max="100" required>
+
+            <label for="multiplicationScore">Multiplication Score (0-100):</label>
+            <input type="number" id="multiplicationScore" min="0" max="100" required>
+
+            <label for="divisionScore">Division Score (0-100):</label>
+            <input type="number" id="divisionScore" min="0" max="100" required>
+
+            <div class="section-title">Test Passing Requirement</div>
+            <label for="passingScore">Minimum Passing Score (e.g., 50):</label>
+            <input type="number" id="passingScore" value="50" min="0" max="100" required>
+
+            <button type="submit">Submit Assessment</button>
+        </form>
+
+        <div class="section-title">Backend Response</div>
+        <div id="responseBlock" class="response-block">
+            No response yet.
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,16 @@
+accelerate
+datasets
+huggingface_hub
+jupyter
+matplotlib
+nltk
+numpy
+optuna
+pandas
+peft
+sentencepiece
+sympy
+torch
+tqdm
+transformers
+wandb
